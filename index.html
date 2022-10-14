@@ -1,0 +1,3408 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Imagenes/pinteresticono.ico" />
+    <title>Pinterest</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar-pinterest">
+        <div id="pinterest-icon">
+          <a href="https://www.pinterest.com"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 0C5.3907 0 0.0206299 5.37007 0.0206299 11.9793C0.0206299 16.895 2.95351 21.1084 7.20823 22.9673C7.16692 22.1411 7.20823 21.1084 7.41478 20.1996C7.66265 19.2083 8.94318 13.673 8.94318 13.673C8.94318 13.673 8.5714 12.8881 8.5714 11.7728C8.5714 9.99652 9.6041 8.67468 10.8846 8.67468C11.9587 8.67468 12.4957 9.50083 12.4957 10.4922C12.4957 11.5662 11.7934 13.2185 11.4216 14.7469C11.1325 16.0275 12.0412 17.0602 13.3218 17.0602C15.5938 17.0602 17.1222 14.1273 17.1222 10.6987C17.1222 8.05498 15.3459 6.11353 12.1239 6.11353C8.48876 6.11353 6.21685 8.83986 6.21685 11.8553C6.21685 12.888 6.50599 13.6316 7.00168 14.2099C7.20823 14.4578 7.24955 14.5817 7.16692 14.8708C7.1256 15.0774 6.96036 15.6144 6.91905 15.8209C6.83641 16.11 6.58858 16.234 6.29944 16.11C4.60582 15.4078 3.86225 13.5902 3.86225 11.5248C3.86225 8.13757 6.7125 4.04808 12.413 4.04808C16.9982 4.04808 20.0137 7.35274 20.0137 10.9052C20.0137 15.6143 17.4113 19.1255 13.5697 19.1255C12.2891 19.1255 11.0499 18.4233 10.6368 17.6385C10.6368 17.6385 9.93456 20.4061 9.81065 20.9431C9.56278 21.8519 9.06709 22.802 8.61272 23.5042C9.68674 23.8347 10.8434 23.9999 12 23.9999C18.6092 23.9999 23.9793 18.6298 23.9793 12.0206C23.9793 5.41129 18.6093 0 12 0Z"
+                fill="#CB1F24"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="contendor-btnInicio">
+          <button class="btninicio">Inicio</button>
+          <div class="iconobtninicio">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.8771 3.22151L11.2761 2.62054C11.196 2.54029 11.1038 2.50029 10.9995 2.50029C10.8955 2.50029 10.8032 2.54029 10.7232 2.62054L5.99857 7.34488L1.27419 2.62067C1.19406 2.54042 1.10185 2.50042 0.997684 2.50042C0.893474 2.50042 0.801263 2.54042 0.721179 2.62067L0.120253 3.22168C0.04 3.30176 0 3.39397 0 3.49819C0 3.60231 0.0401263 3.69452 0.120253 3.77461L5.72206 9.37655C5.80215 9.45667 5.8944 9.49671 5.99857 9.49671C6.10274 9.49671 6.19482 9.45667 6.27486 9.37655L11.8771 3.77461C11.9572 3.69448 11.997 3.60227 11.997 3.49819C11.997 3.39397 11.9572 3.30176 11.8771 3.22151Z"
+                fill="#111111"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="contendor-btnHoy">
+          <button class="btnhoy">Hoy</button>
+        </div>
+        <div class="contendor-buscar">
+          <div class="iconobuscar">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.6084 13.7175L12.1325 10.2416C12.114 10.2232 12.0923 10.2103 12.073 10.1931C12.757 9.15558 13.1561 7.91368 13.1561 6.57813C13.1561 2.94511 10.211 0 6.57807 0C2.94511 0 0 2.94511 0 6.57807C0 10.211 2.94505 13.1561 6.57801 13.1561C7.91361 13.1561 9.15545 12.757 10.1929 12.073C10.2101 12.0923 10.223 12.1139 10.2415 12.1324L13.7174 15.6084C14.2396 16.1305 15.0861 16.1305 15.6084 15.6084C16.1305 15.0862 16.1305 14.2396 15.6084 13.7175ZM6.57807 10.8757C4.20446 10.8757 2.28035 8.95161 2.28035 6.57807C2.28035 4.20446 4.20453 2.28035 6.57807 2.28035C8.95155 2.28035 10.8757 4.20453 10.8757 6.57807C10.8757 8.95161 8.95155 10.8757 6.57807 10.8757Z"
+                fill="#767676"
+              />
+            </svg>
+          </div>
+          <input type="text" class="finder" placeholder="Buscar" />
+        </div>
+        <div class="contendor-iconos">
+          <div class="contendor-icono-notificacion">
+            <div id="notifications">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 7.98686C3.99927 6.32331 4.51631 4.70083 5.47927 3.34488C6.44223 1.98893 9.19979 0.420651 9.19979 0.420651L10.6667 0C10.6667 0 11.6143 0 12 0C12.3857 0 13.3333 4.39051e-05 13.3333 4.39051e-05L14.64 0.420651C14.8903 0.714363 14.8657 0.503436 14.8657 0.503436C14.9701 0.875094 14.64 0.420651 14.64 0.420651C16.2075 0.969089 17.5657 1.99213 18.5262 3.34789C19.4866 4.70365 20.0017 6.32492 20 7.98686V15.9934L24 18.6623V19.9967H0V18.6623L4 15.9934V7.98686ZM14.6667 21.3311C14.6667 22.039 14.3857 22.7178 13.8856 23.2183C13.3855 23.7188 12.7072 24 12 24C11.2928 24 10.6145 23.7188 10.1144 23.2183C9.61429 22.7178 9.33333 22.039 9.33333 21.3311H14.6667Z"
+                  fill="#767676"
+                />
+              </svg>
+              <div class="circulorojo">
+                <p>2</p>
+              </div>
+            </div>
+          </div>
+          <div id="message">
+            <svg
+              width="22"
+              height="24"
+              viewBox="0 0 22 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 0C4.92422 0 0 4.9875 0 11.1429C0 13.8 0.919531 16.2321 2.44922 18.1446C1.91211 20.8446 0.116016 23.25 0.0945313 23.2768C0 23.4 -0.0257812 23.5821 0.0300781 23.7429C0.0859375 23.9036 0.20625 24 0.34375 24C3.19258 24 5.32813 22.2964 6.38516 21.2464C7.79023 21.9054 9.35 22.2857 11 22.2857C17.0758 22.2857 22 17.2982 22 11.1429C22 4.9875 17.0758 0 11 0ZM5.5 12.8571C4.73945 12.8571 4.125 12.0911 4.125 11.1429C4.125 10.1946 4.73945 9.42857 5.5 9.42857C6.26055 9.42857 6.875 10.1946 6.875 11.1429C6.875 12.0911 6.26055 12.8571 5.5 12.8571ZM11 12.8571C10.2395 12.8571 9.625 12.0911 9.625 11.1429C9.625 10.1946 10.2395 9.42857 11 9.42857C11.7605 9.42857 12.375 10.1946 12.375 11.1429C12.375 12.0911 11.7605 12.8571 11 12.8571ZM16.5 12.8571C15.7395 12.8571 15.125 12.0911 15.125 11.1429C15.125 10.1946 15.7395 9.42857 16.5 9.42857C17.2605 9.42857 17.875 10.1946 17.875 11.1429C17.875 12.0911 17.2605 12.8571 16.5 12.8571Z"
+                fill="#767676"
+              />
+            </svg>
+          </div>
+          <div id="profile-img">
+            <img
+              src="https://picsum.photos/24/24.jpg"
+              alt=""
+              class="fotoperfil"
+            />
+          </div>
+          <div class="contendor-icono-flecha">
+            <div class="flecha">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.8801 1.22232L11.2789 0.621198C11.1988 0.540925 11.1066 0.500916 11.0022 0.500916C10.8982 0.500916 10.8059 0.540925 10.7258 0.621198L6.00006 5.34671L1.27451 0.621325C1.19436 0.541052 1.10213 0.501042 0.997933 0.501042C0.893696 0.501042 0.801463 0.541052 0.721359 0.621325L0.120283 1.22248C0.04001 1.30259 0 1.39482 0 1.49906C0 1.60321 0.0401363 1.69544 0.120283 1.77555L5.72349 7.37888C5.80359 7.45903 5.89587 7.49908 6.00006 7.49908C6.10426 7.49908 6.19637 7.45903 6.27643 7.37888L11.8801 1.77555C11.9602 1.6954 12 1.60317 12 1.49906C12 1.39482 11.9602 1.30259 11.8801 1.22232Z"
+                  fill="#767676"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="galeria">
+          <!-- 1 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/419.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>i.pinimg.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 2 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/188.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guarda</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>wattpad.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 3 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/413.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>stickey.ly</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 4 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/400.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>genial.guru</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 5 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/297.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>instagram.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 6 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/378.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>twitter.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 7 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/236.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>mungfali.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 8 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/385.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>instagram.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 9 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/354.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>nimalhelp.es</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 10 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/314.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>wattpad.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 11 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/498.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>mobile.twit...</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 12 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/434.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>pin.it</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 13 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/458.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>youtu.be</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 14 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/490.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>twict.tv</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 15 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/442.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>pin.it</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 16 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/192.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>twitter.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 17 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/475.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>weheartit.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 18 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/377.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>i.pinimg.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 19 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/315.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>wattpad.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 20 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/410.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>mungfali.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 21 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/336.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>aminoapps...</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 22 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/340.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>artcoolz.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 23 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/420.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>i.pinimg.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 24 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/136.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>pin.it</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 25 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/370.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>t.me</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 26 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/502.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>twitter.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 27 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/422.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>instagram.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 28 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/332.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>wattpad.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 29 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/418.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>twitter.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <!-- 30 -->
+          <div class="card">
+            <figure>
+              <img src="https://picsum.photos/236/506.jpg" alt="" />
+              <div class="card-image">
+                <div class="head-card-imagen">
+                  <div class="btnGuardar">Guardar</div>
+                </div>
+                <div class="foot-card-imagen">
+                  <div class="btnDestino">
+                    <div class="fondoDestino">
+                      <svg
+                        width="13"
+                        height="14"
+                        viewBox="0 0 13 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_3:46)">
+                          <path
+                            d="M4.1993 9.71973L8.39829 5.65407L8.35301 8.46074C8.34967 8.66781 8.51479 8.83834 8.72186 8.84168C8.92893 8.84502 9.09953 8.67984 9.10287 8.47277L9.16275 4.76094C9.16609 4.55387 9.00091 4.38327 8.79391 4.38L5.08208 4.32012C4.97855 4.31845 4.88408 4.35889 4.81511 4.42567C4.74621 4.49238 4.70274 4.5855 4.70107 4.68903C4.69773 4.8961 4.86291 5.0667 5.06991 5.06997L7.87659 5.11525L3.67759 9.18091C3.52881 9.32497 3.52498 9.56239 3.66904 9.71117C3.8131 9.85995 4.05052 9.86378 4.1993 9.71973Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_3:46">
+                            <rect
+                              width="9"
+                              height="9"
+                              fill="white"
+                              transform="translate(0 7) rotate(-44.0757)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <span>wattpad.com</span>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11.3334 5.33333L8.00002 2L4.66669 5.33333"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 4.66669L10.6667 4.66669"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.66669 4L9.33335 4"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4.66669 5.33331L11.3334 5.33331"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8 2V10"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="fondoiconos">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.45454 6.54547C0.651163 6.54547 0 7.19661 0 8C0 8.80339 0.651163 9.45453 1.45454 9.45453C2.25791 9.45453 2.9091 8.80339 2.9091 8C2.9091 7.19661 2.25793 6.54547 1.45454 6.54547ZM8.24243 6.54547C7.43903 6.54547 6.7879 7.19663 6.7879 8C6.7879 8.80337 7.43906 9.45453 8.24243 9.45453C9.0458 9.45453 9.69697 8.80342 9.69697 8C9.69697 7.19661 9.04583 6.54547 8.24243 6.54547ZM14.5455 6.54547C13.7421 6.54547 13.0909 7.19663 13.0909 8C13.0909 8.80337 13.7421 9.45453 14.5455 9.45453C15.3488 9.45453 16 8.80339 16 8C16 7.19661 15.3488 6.54547 14.5455 6.54547Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="contendor-btnFlotantes">
+          <div class="btnMas">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.6207 8.62069H11.3793V1.37931C11.3793 0.62069 10.7586 0 10 0C9.24138 0 8.62069 0.62069 8.62069 1.37931V8.62069H1.37931C0.62069 8.62069 0 9.24138 0 10C0 10.7586 0.62069 11.3793 1.37931 11.3793H8.62069V18.6207C8.62069 19.3793 9.24138 20 10 20C10.7586 20 11.3793 19.3793 11.3793 18.6207V11.3793H18.6207C19.3793 11.3793 20 10.7586 20 10C20 9.24138 19.3793 8.62069 18.6207 8.62069Z"
+                fill="#231F20"
+              />
+            </svg>
+          </div>
+          <div class="btnPregunta">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.0514 1.37089C15.0855 0.457112 12.6166 0 9.64517 0C7.38345 0 5.47621 0.322 3.92517 0.964445C1.46552 1.97134 0.157586 3.68045 0 6.09156H5.70034C5.70034 5.38978 6.01828 4.71312 6.65414 4.06112C7.29069 3.40956 8.36966 3.08423 9.89172 3.08423C11.4393 3.08423 12.5055 3.34867 13.0886 3.87712C13.6724 4.40623 13.9641 4.99223 13.9641 5.63489C13.9641 6.19334 13.529 6.70512 13.0052 7.17045C12.7169 7.44156 12.3369 7.6909 11.8648 7.91912C11.8648 7.91912 8.77345 9.1969 7.41655 10.2231C6.62931 10.8189 6.55862 11.7102 6.48931 12.9896C6.48448 13.0805 6.53862 13.2685 7.03276 13.2685C7.5269 13.2685 11.0266 13.2685 11.4662 13.2685C11.9059 13.2685 11.9976 13.0571 12.0038 12.9658C12.0348 12.4996 12.1162 12.262 12.2476 11.9931C12.4969 11.4851 13.1745 11.0413 13.9348 10.6605L15.5041 9.96245C16.9203 9.25157 18.0507 8.66779 18.549 8.21068C19.4014 7.45823 20 6.53178 20 5.43178C20 3.63845 19.0166 2.28467 17.0514 1.37089ZM9.55345 15.4705C7.58897 15.4327 5.96793 16.3085 5.90586 17.6818C5.84448 19.0547 7.38621 19.9614 9.35069 19.9987C11.4021 20.038 12.9793 19.1905 13.0407 17.8178C13.1021 16.4445 11.6048 15.5096 9.55345 15.4705Z"
+                fill="#030104"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
